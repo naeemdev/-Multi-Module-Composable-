@@ -7,7 +7,7 @@ plugins {
 }
 android {
     namespace 'com.naeemdev.multimodulecomposable'
-    compileSdk 33
+    compileSdk Sdk.compile
 
     defaultConfig {
         applicationId "com.naeemdev.multimodulecomposable"
@@ -37,13 +37,8 @@ android {
         it.buildConfigField 'String', 'TMDB_API_KEY', TMDB_API_KEY
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
     kotlinOptions {
         jvmTarget = Jvm.target
-        useIR = true
     }
 
     buildFeatures {
@@ -111,15 +106,4 @@ dependencies {
 
     // Google
     implementation "com.google.android.material:material:${Google.material}"
-}
-afterEvaluate {
-    publishing {
-        publications {
-            aar(MavenPublication) {
-                groupId = 'com.github.Naeemdev'
-                artifactId = 'multimodulecomposable'
-                version = '1.0.0'
-            }
-        }
-    }
 }

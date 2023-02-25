@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace 'com.naeemdev.nowplaying'
-    compileSdk 33
+    compileSdk Sdk.compile
 
     defaultConfig {
         minSdk Sdk.min
@@ -30,7 +30,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = Jvm.target
-        useIR = true
     }
     buildFeatures {
         compose true

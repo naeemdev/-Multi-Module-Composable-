@@ -12,12 +12,12 @@ object Sdk {
 object Kotlin {
     const val compiler = "1.5.31"
     const val compilerExtension = "1.1.0-beta04"
-    const val gradle = "1.6.0"
+    const val gradle = "1.7.0"
     const val coroutines = "1.6.4"
 }
 
 object BuildTools {
-    const val gradle = "7.0.4"
+    const val gradle = "7.4.1"
 }
 
 object Google {
@@ -28,7 +28,7 @@ object Google {
 object AndroidX {
     const val core = "1.9.0"
     const val appcompat = "1.4.1"
-    const val compose = "1.3.2"
+    const val compose = "1.2.0"
     const val activityCompose = "1.6.1"
     const val navigationCompose = "2.6.0-alpha04"
     const val hiltNavigationCompose = "1.1.0-alpha01"
