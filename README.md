@@ -1,4 +1,5 @@
-# -Multi-Module-Composable-
+#  Multi-Module-Jetpack-Compose-Example
+
 
 A Clean Architecture App to show use of multi-module-architecture in a Jetpack Compose.
 
