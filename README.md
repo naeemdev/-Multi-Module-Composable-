@@ -20,3 +20,8 @@ The modules are as follow:
     upcoming: A Screen Layer
 
     buildSrc: Includes Versions of Dependecies
+
+
+
+check out more about Multi model 
+https://medium.com/@naeem0313/android-multi-module-architecture-8ea93229e1f9
