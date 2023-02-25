@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    namespace 'com.naeemdev.data'
     compileSdk Sdk.compile
 
     defaultConfig {
